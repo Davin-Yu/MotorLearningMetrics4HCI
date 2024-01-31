@@ -1,0 +1,11 @@
+Package: MotorLearningMetrics4HCI
+Title: Metrics of Motor Learning for Analyzing Movement Techniques
+Version: 1.0.0
+Authors@R: 
+    person("Difeng", "Yu", email = "diyu@di.ku.dk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7753-4591"))
+Description: To quantify and understand how users learn movement-based techniques in HCI, we build four metrics based on motor learning literature. Refinement time proportion (RTP) and refinement space (RS) quantify the user prediction error. Normalized path error (NPE) and normalized jerk error (NJE) measure the closeness of the current movement to an ideal movement. See paper for more details: https://doi.org/10.1145/3613904.3642354
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
